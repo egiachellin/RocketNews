@@ -10,3 +10,14 @@
 .font-1-l {
   font: 700 1.5rem/1.75 "Work Sans", sans-serif;
 }
+
+@media (min-width: 1900px) {
+  .font-1-l {
+    font-size: 2rem;
+  }
+
+  .font-1-s,
+  .font-1-s-b {
+    font-size: 1.25rem;
+  }
+}

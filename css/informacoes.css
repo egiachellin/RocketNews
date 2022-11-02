@@ -45,15 +45,19 @@
   outline: none;
 }
 
-.teste {
+.email {
   display: flex;
 }
 
-.teste img {
+.email img {
   border: 1px solid #8257e5;
 }
 
 .botao {
+  border: 1px solid #8257e5;
+}
+
+.link {
   display: flex;
   align-items: center;
   gap: 5px;
@@ -61,7 +65,7 @@
   width: max-content;
 }
 
-.botao::after {
+.link::after {
   content: "";
   position: absolute;
   height: 2px;
@@ -71,7 +75,7 @@
   transition: 0.3s;
 }
 
-.botao:hover::after {
+.link:hover::after {
   width: 100%;
 }
 
@@ -80,4 +84,10 @@
   height: 100%;
   object-fit: cover;
   object-position: right;
+}
+
+@media (min-width: 1900px) {
+  .logo {
+    margin-bottom: 120px;
+  }
 }
