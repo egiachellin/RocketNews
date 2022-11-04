@@ -44,7 +44,6 @@
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 16px;
-  /* border: 0px solid transparent; */
   border: none;
   border-left: 10px solid #04d361;
 }
@@ -103,7 +102,6 @@
   }
 
   .form {
-    z-index: ;
     width: initial;
   }
 }
