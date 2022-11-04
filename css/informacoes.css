@@ -6,6 +6,11 @@
   padding-left: 36px;
 }
 
+.informacoes {
+  padding-right: 36px;
+  position: absolute;
+}
+
 .logo {
   margin-top: 50px;
   margin-bottom: 80px;
@@ -25,6 +30,8 @@
 
 .form {
   margin-bottom: 50px;
+  z-index: 1;
+  width: 800px;
 }
 
 .form label {
@@ -37,7 +44,8 @@
   padding-top: 16px;
   padding-bottom: 16px;
   padding-left: 16px;
-  border: 0px solid transparent;
+  /* border: 0px solid transparent; */
+  border: none;
   border-left: 10px solid #04d361;
 }
 
@@ -49,12 +57,9 @@
   display: flex;
 }
 
-.email img {
-  border: 1px solid #8257e5;
-}
-
+.email img,
 .botao {
-  border: 1px solid #8257e5;
+  border: 1px solid var(--cor-3);
 }
 
 .link {
@@ -89,5 +94,16 @@
 @media (min-width: 1900px) {
   .logo {
     margin-bottom: 120px;
+  }
+}
+
+@media (max-width: 1350px) {
+  .informacoes {
+    position: initial;
+  }
+
+  .form {
+    z-index: ;
+    width: initial;
   }
 }
